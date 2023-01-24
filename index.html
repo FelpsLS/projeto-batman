@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    
+        <link rel="shortcut icon" href="./src/imagens/favicon_fundo-transparente_.ico" type="image/x-icon">
+    
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;500&display=swap" rel="stylesheet">
+
+        <link rel="stylesheet" href="./src/css/reset.css">
+
+        <link rel="stylesheet" href="./src/css/estilos.css">
+
+
+        <link rel="stylesheet" href="./src/css/responsivo.css">
+
+        <title>Batman - O Filme</title>
+    </head>
+    <body>
+        <div class="fundo-video">
+            <video class="video" autoplay loop muted>
+                <source src="./src/video/202301241157.mp4" type="video/mp4">
+            </video>
+        </div>
+    
+        <header class="cabecalho">
+            <a>
+                <img class="logo" src="./src/imagens/logo(fundo transparente e vermelho d).png" alt="logo morcego batman">
+            </a>
+            <nav>
+                <ul class="menu">
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">Detalhes</a></li>
+                </ul>
+            </nav>
+        </header>
+        <main class="container">
+            <div class="informacoes">
+                <img class="imagem-titulo" src="./src/imagens/titulo(fundo transparente).png" alt="imagem do título do filme">
+                <p class="descricao">Após dois anos espreitando as ruas como Batman, Bruce Wayne se encontra nas profundezas mais sombrias de Gotham City. Com poucos aliados confiáveis, o vigilante solitário se estabelece como a personificação da vingança para a população.</p>
+                <button class="botao-trailer">Veja o trailer</button>
+            </div>
+            <img class="batman" src="./src/imagens/batman.png" />
+
+            <div class="modal">
+                <div class="conteudo-modal">
+                    <span class="fechar-modal">X</span>
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/uEySwcw7u5A" title="Trailer oficial" frameborder="1" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                </div>
+            </div>
+        </main>
+
+        <script src="./src/js/index.js"></script>
+    </body>
+</html>
